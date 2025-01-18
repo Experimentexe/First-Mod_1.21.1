@@ -52,6 +52,7 @@ public class FirstMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.Coconut);
             event.accept(ModItems.Sushi);
+            event.accept(ModItems.Toast);
         }
     }
 
